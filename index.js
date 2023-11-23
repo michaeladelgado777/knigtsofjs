@@ -187,5 +187,9 @@ if (gameState.whoseTurn === 2) {
   changeButtonStatus()
   changePlayer()
 changePlayerTwoSprite(); }
-
+ 
+const img = document.createElement("Img")
+img.src ="https://www.freepik.com/free-vector/alien-planet-landscape-cosmic-background-deserted-coastline-with-mountains-view-glowing-cleft-stars-shining-spheres-space-extraterrestrial-pc-game-backdrop-cartoon-vector-illustration_20700727.htm#query=game%20background&position=18&from_view=keyword&track=ais&uuid=706213d3-604d-4e39-a263-dbb47d246391const"
+const src= document.getElementById("myImg")
+src.appendChild(img)
 }
